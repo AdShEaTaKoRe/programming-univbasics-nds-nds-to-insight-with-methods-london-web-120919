@@ -9,8 +9,7 @@ def directors_totals(nds)
   result = {}
   directors = 0
   while directors < nds.length do
-    # binding.pry
-
+    
     directors += 1  
   end
   result
