@@ -9,7 +9,8 @@ def directors_totals(nds)
   result = {}
   directors = 0
   while directors < nds.length do
-    
+    name = nds[directors][:name]
+    result[name] = 0  
     directors += 1  
   end
   result
